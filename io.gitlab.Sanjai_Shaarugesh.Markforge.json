@@ -5,17 +5,25 @@
     "sdk": "org.gnome.Sdk",
     "command": "Markforge",
     "finish-args": [
-        "--socket=wayland",
-        "--socket=fallback-x11",
-        "--share=ipc",
-        "--device=dri",
-        "--filesystem=host",
-        "--filesystem=xdg-run/gvfsd",
-        "--talk-name=org.freedesktop.FileManager1",
-        "--talk-name=org.gtk.vfs.*",
-        "--env=NO_AT_BRIDGE=1"
-    ],
-    
+            "--socket=wayland",
+            "--socket=fallback-x11",
+            "--socket=session-bus",
+            "--share=ipc",
+            "--share=network",
+            "--device=dri",
+            "--filesystem=xdg-documents",
+            "--filesystem=xdg-download",
+            "--filesystem=home",
+            "--filesystem=xdg-run/gvfsd",
+            "--talk-name=org.freedesktop.FileManager1",
+            "--talk-name=org.gtk.vfs.*",
+            "--own-name=io.gitlab.Sanjai_Shaarugesh.Markforge.*",
+            "--socket=pulseaudio",
+            "--env=NO_AT_BRIDGE=1",
+            "--env=GTK_A11Y=none",
+            "--env=EGL_PLATFORM=wayland",
+            "--env=GDK_BACKEND=wayland,x11"
+        ],
     "cleanup": [
         "/include",
         "/lib/pkgconfig",
@@ -40,7 +48,7 @@
                     "type": "git",
                     "url": "https://gitlab.com/Sanjai-Shaarugesh/Markforge.git",
                     "tag": "v0.2.6",
-                    "commit": "511481c710ef78f63d13113128e37d5f78751b32"
+                    "commit": "0774de343f6aa734eb93f4ceeb7ce3b386f662f1"
                 }
             ]
         }

@@ -3,12 +3,11 @@
   <id>io.gitlab.Sanjai_Shaarugesh.Markforge</id>
 
   <metadata_license>CC0-1.0</metadata_license>
-  <project_license>GPL-3.0-or-later</project_license>
+  <project_license>GPL-3.0</project_license>
 
   <name>Markforge</name>
 
-  <summary
-    >A markdown editor that just works – with live preview, Mermaid, LaTeX, and GitHub alerts</summary>
+  <summary>A markdown editor that just works — with live preview, Mermaid, LaTeX, and GitHub alerts</summary>
 
   <description>
     <p>
@@ -32,23 +31,20 @@
     </ul>
     <p>
       Whether you're writing technical docs, maintaining READMEs, or just taking notes,
-      Markforge gives you everything you need in a fast, reliable package. No accounts, no cloud sync you didn't ask for – just solid local editing.
+      Markforge gives you everything you need in a fast, reliable package. No accounts, no cloud sync you didn't ask for — just solid local editing.
     </p>
   </description>
 
-  <developer id="io.gitlab.sanjai_Shaarugesh">
-    <name>Sanjai Shaarugesh</name>
-  </developer>
+<developer_name>Sanjai Shaarugesh</developer_name>
 
   <update_contact>shaarugesh6@gmail.com</update_contact>
 
-  <url type="homepage">https://gitlab.com/Sanjai-Shaarugesh/Markforgee</url>
-  <url
-        type="bugtracker"
-    >https://gitlab.com/Sanjai-Shaarugesh/Markforgee/issues</url>
-  <url type="help">https://gitlab.com/Sanjai-Shaarugesh/Markforgee</url>
+  <url type="homepage">https://gitlab.com/Sanjai-Shaarugesh/Markforge</url>
+  <url type="bugtracker">https://gitlab.com/Sanjai-Shaarugesh/Markforge/issues</url>
+  <url type="help">https://gitlab.com/Sanjai-Shaarugesh/Markforge</url>
   <url type="donation">https://buymeacoffee.com/sanjai</url>
-  <url type="vcs-browser">https://gitlab.com/Sanjai-Shaarugesh/Markforgee</url>
+  <url type="vcs-browser">https://gitlab.com/Sanjai-Shaarugesh/Markforge</url>
+ <url type="contribute">https://gitlab.com/Sanjai-Shaarugesh/Markforge/-/blob/main/LICENCE?ref_type=heads</url>
 
   <launchable type="desktop-id">io.gitlab.Sanjai_Shaarugesh.Markforge.desktop</launchable>
 
@@ -56,78 +52,62 @@
     <binary>Markforge</binary>
   </provides>
 
-  <content_rating type="oars-1.1">
-    <content_attribute id="social-chat">mild</content_attribute>
-    <content_attribute id="social-info">mild</content_attribute>
-  </content_rating>
+  <content_rating type="oars-1.1" />
 
   <screenshots>
-    <screenshot type="default">
-      <caption>Main window with editor</caption>
-      <image
-            >https://raw.githubusercontent.com/Sanjai-Shaarugesh/Markforge/refs/heads/main/screenshots/main-window.png</image>
-    </screenshot>
-    <screenshot>
-      <caption>Dark mode interface</caption>
-      <image
-            >https://raw.githubusercontent.com/Sanjai-Shaarugesh/Markforge/refs/heads/main/screenshots/dark-mode.png</image>
-    </screenshot>
-    <screenshot>
-      <caption>File manager sidebar</caption>
-      <image
-            >https://raw.githubusercontent.com/Sanjai-Shaarugesh/Markforge/refs/heads/main/screenshots/file-manager.png</image>
-    </screenshot>
-    <screenshot>
-      <caption>Editing markdown with Mermaid diagram and LaTeX math</caption>
-      <image
-            >https://raw.githubusercontent.com/Sanjai-Shaarugesh/Markforge/refs/heads/main/screenshots/mermaid-latex.png</image>
-    </screenshot>
-    <screenshot>
-      <caption>File history tracking and versioning</caption>
-      <image
-            >https://raw.githubusercontent.com/Sanjai-Shaarugesh/Markforge/refs/heads/main/screenshots/file-history.png</image>
-    </screenshot>
-    <screenshot>
-      <caption>Keyboard shortcuts reference</caption>
-      <image
-            >https://raw.githubusercontent.com/Sanjai-Shaarugesh/Markforge/refs/heads/main/screenshots/keyboard-shorcuts.png</image>
-    </screenshot>
-    <screenshot>
-      <caption>Formatting toolbar in action</caption>
-      <image
-            >https://raw.githubusercontent.com/Sanjai-Shaarugesh/Markforge/refs/heads/main/screenshots/formatting.png</image>
-    </screenshot>
-    <screenshot>
-      <caption>LaTeX math rendering</caption>
-      <image
-            >https://raw.githubusercontent.com/Sanjai-Shaarugesh/Markforge/refs/heads/main/screenshots/latex.png</image>
-    </screenshot>
-    <screenshot>
-      <caption>GitHub-style alert blocks</caption>
-      <image
-            >https://raw.githubusercontent.com/Sanjai-Shaarugesh/Markforge/refs/heads/main/screenshots/alert.png</image>
-    </screenshot>
-    <screenshot>
-      <caption>Mermaid diagram support</caption>
-      <image
-            >https://raw.githubusercontent.com/Sanjai-Shaarugesh/Markforge/refs/heads/main/screenshots/mermaid.png</image>
-    </screenshot>
-    <screenshot>
-      <caption>Easy table insertion</caption>
-      <image
-            >https://raw.githubusercontent.com/Sanjai-Shaarugesh/Markforge/refs/heads/main/screenshots/table.png</image>
-    </screenshot>
-    <screenshot>
-      <caption>Light mode theme</caption>
-      <image
-            >https://raw.githubusercontent.com/Sanjai-Shaarugesh/Markforge/refs/heads/main/screenshots/light.png</image>
-    </screenshot>
-    <screenshot>
-      <caption>Export options for sharing your work</caption>
-      <image
-            >https://raw.githubusercontent.com/Sanjai-Shaarugesh/Markforge/refs/heads/main/screenshots/file-export.png</image>
-    </screenshot>
-  </screenshots>
+      <screenshot type="default">
+        <caption>Main window with editor</caption>
+        <image>https://gitlab.com/Sanjai-Shaarugesh/Markforge/-/raw/main/screenshots/main-window.png?ref_type=heads</image>
+      </screenshot>
+      <screenshot>
+        <caption>Dark mode interface</caption>
+        <image>https://gitlab.com/Sanjai-Shaarugesh/Markforge/-/raw/main/screenshots/dark-mode.png?ref_type=heads</image>
+      </screenshot>
+      <screenshot>
+        <caption>File manager sidebar</caption>
+        <image>https://gitlab.com/Sanjai-Shaarugesh/Markforge/-/raw/main/screenshots/file-manager.png?ref_type=heads</image>
+      </screenshot>
+      <screenshot>
+        <caption>Editing markdown with Mermaid diagram and LaTeX math</caption>
+        <image>https://gitlab.com/Sanjai-Shaarugesh/Markforge/-/raw/main/screenshots/mermaid-latex.png?ref_type=heads</image>
+      </screenshot>
+      <screenshot>
+        <caption>View of the file history tracking feature</caption>
+        <image>https://gitlab.com/Sanjai-Shaarugesh/Markforge/-/raw/main/screenshots/file-history.png?ref_type=heads</image>
+      </screenshot>
+      <screenshot>
+        <caption>View of the keyboard shorcuts</caption>
+        <image>https://gitlab.com/Sanjai-Shaarugesh/Markforge/-/raw/main/screenshots/keyboard-shorcuts.png?ref_type=heads</image>
+      </screenshot>
+      <screenshot>
+        <caption>View of the formatting toolbar feature</caption>
+        <image>https://gitlab.com/Sanjai-Shaarugesh/Markforge/-/raw/main/screenshots/formatting.png?ref_type=heads</image>
+      </screenshot>
+      <screenshot>
+        <caption>View of the latext feature</caption>
+        <image>https://gitlab.com/Sanjai-Shaarugesh/Markforge/-/raw/main/screenshots/latex.png?ref_type=heads</image>
+      </screenshot>
+      <screenshot>
+        <caption>View of github alert tags </caption>
+        <image>https://gitlab.com/Sanjai-Shaarugesh/Markforge/-/raw/main/screenshots/alert.png?ref_type=heads</image>
+      </screenshot>
+      <screenshot>
+        <caption>View of the mermaid feature</caption>
+        <image>https://gitlab.com/Sanjai-Shaarugesh/Markforge/-/raw/main/screenshots/mermaid.png?ref_type=heads</image>
+      </screenshot>
+      <screenshot>
+        <caption>View of the table insert feature</caption>
+        <image>https://gitlab.com/Sanjai-Shaarugesh/Markforge/-/raw/main/screenshots/screeenshots.png?ref_type=heads</image>
+      </screenshot>
+      <screenshot>
+           <caption>View of the light mode feature</caption>
+           <image>https://gitlab.com/Sanjai-Shaarugesh/Markforge/-/raw/main/screenshots/light.png?ref_type=heads</image>
+         </screenshot>
+      <screenshot>
+              <caption>View of the file export</caption>
+              <image>https://gitlab.com/Sanjai-Shaarugesh/Markforge/-/raw/main/screenshots/file-export.png?ref_type=heads</image>
+      </screenshot>
+    </screenshots>
 
   <releases>
     <release version="0.2.6" date="2024-12-14">
@@ -193,9 +173,10 @@
     <display_length compare="ge">360</display_length>
   </requires>
 
-  <recommends>
+  <supports>
     <control>keyboard</control>
     <control>pointing</control>
-  </recommends>
+    <control>touch</control>
+  </supports>
 
 </component>
