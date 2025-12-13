@@ -1,0 +1,6 @@
+{
+  "io.gitlab.Sanjai_Shaarugesh.Markforge": {
+    "finish-args-host-filesystem-access": "Markforge is a Markdown editor that requires host filesystem access to allow users to open, edit, and save documents from anywhere on their system. Users expect to work with files across their entire filesystem, not just specific directories.",
+    "finish-args-arbitrary-dbus-access": "Markforge requires access to org.freedesktop.FileManager1 for file manager integration and org.gtk.vfs.* for GVFS support (network shares, remote locations)."
+  }
+}

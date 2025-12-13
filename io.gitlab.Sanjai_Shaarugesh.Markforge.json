@@ -1,0 +1,48 @@
+{
+    "app-id": "io.gitlab.Sanjai_Shaarugesh.Markforge",
+    "runtime": "org.gnome.Platform",
+    "runtime-version": "48",
+    "sdk": "org.gnome.Sdk",
+    "command": "Markforge",
+    "finish-args": [
+        "--socket=wayland",
+        "--socket=fallback-x11",
+        "--share=ipc",
+        "--device=dri",
+        "--filesystem=host",
+        "--filesystem=xdg-run/gvfsd",
+        "--talk-name=org.freedesktop.FileManager1",
+        "--talk-name=org.gtk.vfs.*",
+        "--env=NO_AT_BRIDGE=1"
+    ],
+    
+    "cleanup": [
+        "/include",
+        "/lib/pkgconfig",
+        "/man",
+        "/share/doc",
+        "/share/gtk-doc",
+        "/share/man",
+        "/share/pkgconfig",
+        "*.la",
+        "*.a"
+    ],
+    "modules": [
+        "python-deps-sources.json",
+        {
+            "name": "Markforge",
+            "buildsystem": "simple",
+            "build-commands": [
+                "make install PREFIX=/app"
+            ],
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://gitlab.com/Sanjai-Shaarugesh/Markforge.git",
+                    "tag": "v0.2.6",
+                    "commit": "511481c710ef78f63d13113128e37d5f78751b32"
+                }
+            ]
+        }
+    ]
+}
